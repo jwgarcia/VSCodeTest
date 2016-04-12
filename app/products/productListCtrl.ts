@@ -8,6 +8,7 @@ class ProductListCtrl implements IProductListModel{
     title: string; 
     showImage: boolean; 
     products: any[]; 
+   
     
     constructor(){
         this.title = "Product List";
